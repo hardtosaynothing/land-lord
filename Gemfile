@@ -23,12 +23,15 @@ gem "cancancan"
 gem "bootstrap-sass"
 gem "font-awesome-rails"
 gem "ffaker"
+gem "geocoder"
+gem "awesome_print"
 
 group :development, :test do
   gem "byebug", platform: :mri
 end
 
 group :development do
+  gem "meta_request"
   gem "web-console", ">= 3.3.0"
   gem "listen", "~> 3.0.5"
   gem "spring"
